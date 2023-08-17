@@ -10,4 +10,5 @@ function handleCLikBtn(target) {
   total = parseInt(total) + parseInt(flowerPrice);
   const setPrice = document.getElementById("total");
   setPrice.innerText = total;
+
 }
